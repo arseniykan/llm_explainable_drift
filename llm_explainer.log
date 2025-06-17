@@ -1,0 +1,230 @@
+2025-06-09 16:58:47,757 - __main__ - INFO - Starting LLM explainer
+2025-06-09 16:58:48,125 - __main__ - ERROR - Drift explanation error: module 'openai' has no attribute 'error'
+2025-06-09 16:59:05,974 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-09 16:59:05,996 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-09 17:02:59,199 - __main__ - INFO - Starting LLM explainer
+2025-06-09 17:02:59,505 - __main__ - ERROR - OpenAI API Error: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-06-09 17:03:16,866 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-09 17:03:16,911 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-09 17:06:34,811 - __main__ - INFO - Starting LLM explainer
+2025-06-09 17:06:35,275 - __main__ - ERROR - OpenAI API Error: name 'OpenAI' is not defined
+2025-06-09 17:06:54,905 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-09 17:06:54,939 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-09 17:08:47,390 - __main__ - INFO - Starting LLM explainer
+2025-06-09 17:08:52,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 17:09:11,266 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-09 17:09:11,300 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-09 17:14:06,803 - __main__ - INFO - Starting LLM explainer
+2025-06-09 17:14:13,033 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 17:14:30,130 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-09 17:14:30,152 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-09 17:19:12,674 - __main__ - INFO - Starting LLM explainer
+2025-06-09 17:19:24,433 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 17:19:41,108 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-09 17:19:41,124 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-17 18:31:04,032 - __main__ - INFO - Starting LLM explainer
+2025-06-17 18:31:04,033 - __main__ - WARNING - OpenAI API key not set properly
+2025-06-17 18:31:04,033 - __main__ - WARNING - Anthropic API key not set properly
+2025-06-17 18:31:04,366 - __main__ - ERROR - OpenAI API Error: The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable
+2025-06-17 18:31:04,411 - __main__ - ERROR - Unexpected error in Claude call: "Could not resolve authentication method. Expected either api_key or auth_token to be set. Or for one of the `X-Api-Key` or `Authorization` headers to be explicitly omitted"
+2025-06-17 18:31:04,411 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-17 18:32:32,235 - __main__ - INFO - Starting LLM explainer
+2025-06-17 18:32:42,430 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 18:33:00,086 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 18:33:00,110 - __main__ - INFO - Successfully saved 1 explanations
+2025-06-17 18:44:09,986 - __main__ - INFO - Starting LLM explainer
+2025-06-17 18:44:09,987 - __main__ - ERROR - Invalid JSON in prompt file: prompts.json
+2025-06-17 18:44:09,987 - __main__ - CRITICAL - Main execution failed: Expecting value: line 1 column 1 (char 0)
+2025-06-17 18:55:22,388 - __main__ - INFO - Starting LLM explainer
+2025-06-17 18:55:22,389 - __main__ - ERROR - Critical error in main: Expecting value: line 1 column 1 (char 0)
+2025-06-17 18:56:36,390 - __main__ - INFO - Starting LLM explainer
+2025-06-17 18:56:36,390 - __main__ - ERROR - Critical error in main: Expecting value: line 1 column 1 (char 0)
+2025-06-17 19:07:50,083 - __main__ - INFO - Starting LLM explainer
+2025-06-17 19:07:50,416 - __main__ - INFO - Processing prompt: quantitative_analysis_plain_data
+2025-06-17 19:07:59,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:08:00,450 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:08:00,452 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:08:00,453 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:08:00,453 - __main__ - INFO - Saved explanations for quantitative_analysis_plain_data to llm_explanations_quantitative_analysis_plain_data.json
+2025-06-17 19:08:00,454 - __main__ - INFO - Processing prompt: quantitative_analysis_context_rich
+2025-06-17 19:08:08,850 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:08:09,334 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:08:09,343 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:08:09,345 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:08:09,345 - __main__ - INFO - Saved explanations for quantitative_analysis_context_rich to llm_explanations_quantitative_analysis_context_rich.json
+2025-06-17 19:08:09,345 - __main__ - INFO - Processing prompt: qualitative_business_impact_plain_data
+2025-06-17 19:08:16,966 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:08:17,667 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:08:17,689 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:08:17,690 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:08:17,691 - __main__ - INFO - Saved explanations for qualitative_business_impact_plain_data to llm_explanations_qualitative_business_impact_plain_data.json
+2025-06-17 19:08:17,691 - __main__ - INFO - Processing prompt: qualitative_business_impact_context_rich
+2025-06-17 19:08:28,907 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:08:29,275 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:08:29,276 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:08:29,277 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:08:29,278 - __main__ - INFO - Saved explanations for qualitative_business_impact_context_rich to llm_explanations_qualitative_business_impact_context_rich.json
+2025-06-17 19:08:29,278 - __main__ - INFO - Processing prompt: qualitative_causal_relationships_plain_data
+2025-06-17 19:08:41,157 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:08:41,573 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:08:41,585 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:08:41,586 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:08:41,586 - __main__ - INFO - Saved explanations for qualitative_causal_relationships_plain_data to llm_explanations_qualitative_causal_relationships_plain_data.json
+2025-06-17 19:08:41,587 - __main__ - INFO - Processing prompt: qualitative_causal_relationships_context_rich
+2025-06-17 19:08:50,993 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:08:51,411 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:08:51,420 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:08:51,421 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:08:51,422 - __main__ - INFO - Saved explanations for qualitative_causal_relationships_context_rich to llm_explanations_qualitative_causal_relationships_context_rich.json
+2025-06-17 19:08:51,422 - __main__ - INFO - Processing prompt: qualitative_recommendations_plain_data
+2025-06-17 19:09:03,591 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:09:03,967 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:09:03,968 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:09:03,969 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:09:03,970 - __main__ - INFO - Saved explanations for qualitative_recommendations_plain_data to llm_explanations_qualitative_recommendations_plain_data.json
+2025-06-17 19:09:03,970 - __main__ - INFO - Processing prompt: qualitative_recommendations_context_rich
+2025-06-17 19:09:12,541 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:09:13,112 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 404 Not Found"
+2025-06-17 19:09:13,130 - __main__ - ERROR - Claude API Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-3-sonnet'}}
+2025-06-17 19:09:13,132 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:09:13,132 - __main__ - INFO - Saved explanations for qualitative_recommendations_context_rich to llm_explanations_qualitative_recommendations_context_rich.json
+2025-06-17 19:12:29,218 - __main__ - INFO - Starting LLM explainer
+2025-06-17 19:12:29,555 - __main__ - INFO - Processing prompt: quantitative_analysis_plain_data
+2025-06-17 19:12:37,466 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:12:42,131 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:12:42,146 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:12:42,146 - __main__ - INFO - Saved explanations for quantitative_analysis_plain_data to llm_explanations_quantitative_analysis_plain_data.json
+2025-06-17 19:12:42,146 - __main__ - INFO - Processing prompt: quantitative_analysis_context_rich
+2025-06-17 19:12:50,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:12:57,400 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:12:57,426 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:12:57,427 - __main__ - INFO - Saved explanations for quantitative_analysis_context_rich to llm_explanations_quantitative_analysis_context_rich.json
+2025-06-17 19:12:57,427 - __main__ - INFO - Processing prompt: qualitative_business_impact_plain_data
+2025-06-17 19:13:11,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:13:23,389 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:13:23,393 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:13:23,393 - __main__ - INFO - Saved explanations for qualitative_business_impact_plain_data to llm_explanations_qualitative_business_impact_plain_data.json
+2025-06-17 19:13:23,393 - __main__ - INFO - Processing prompt: qualitative_business_impact_context_rich
+2025-06-17 19:13:35,022 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:13:45,635 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:13:45,638 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:13:45,639 - __main__ - INFO - Saved explanations for qualitative_business_impact_context_rich to llm_explanations_qualitative_business_impact_context_rich.json
+2025-06-17 19:13:45,639 - __main__ - INFO - Processing prompt: qualitative_causal_relationships_plain_data
+2025-06-17 19:13:54,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:14:04,931 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:14:04,956 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:14:04,956 - __main__ - INFO - Saved explanations for qualitative_causal_relationships_plain_data to llm_explanations_qualitative_causal_relationships_plain_data.json
+2025-06-17 19:14:04,956 - __main__ - INFO - Processing prompt: qualitative_causal_relationships_context_rich
+2025-06-17 19:14:14,200 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:14:24,607 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:14:24,611 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:14:24,612 - __main__ - INFO - Saved explanations for qualitative_causal_relationships_context_rich to llm_explanations_qualitative_causal_relationships_context_rich.json
+2025-06-17 19:14:24,612 - __main__ - INFO - Processing prompt: qualitative_recommendations_plain_data
+2025-06-17 19:14:37,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:14:48,829 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:14:48,833 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:14:48,833 - __main__ - INFO - Saved explanations for qualitative_recommendations_plain_data to llm_explanations_qualitative_recommendations_plain_data.json
+2025-06-17 19:14:48,833 - __main__ - INFO - Processing prompt: qualitative_recommendations_context_rich
+2025-06-17 19:14:59,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:15:10,716 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:15:10,719 - __main__ - ERROR - Drift explanation error: Unsupported model: gemma-3n-e4b-it
+2025-06-17 19:15:10,720 - __main__ - INFO - Saved explanations for qualitative_recommendations_context_rich to llm_explanations_qualitative_recommendations_context_rich.json
+2025-06-17 19:17:21,435 - __main__ - INFO - Starting LLM explainer
+2025-06-17 19:17:21,772 - __main__ - INFO - Processing prompt: quantitative_analysis_plain_data
+2025-06-17 19:17:29,971 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:17:35,724 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:17:35,740 - __main__ - ERROR - Gemini API Error: No module named 'google.generativeai'
+2025-06-17 19:17:35,741 - __main__ - INFO - Saved explanations for quantitative_analysis_plain_data to llm_explanations_quantitative_analysis_plain_data.json
+2025-06-17 19:17:35,741 - __main__ - INFO - Processing prompt: quantitative_analysis_context_rich
+2025-06-17 19:17:46,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:17:52,823 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:17:52,827 - __main__ - ERROR - Gemini API Error: No module named 'google.generativeai'
+2025-06-17 19:17:52,827 - __main__ - INFO - Saved explanations for quantitative_analysis_context_rich to llm_explanations_quantitative_analysis_context_rich.json
+2025-06-17 19:17:52,827 - __main__ - INFO - Processing prompt: qualitative_business_impact_plain_data
+2025-06-17 19:17:59,929 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:18:11,426 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:18:11,445 - __main__ - ERROR - Gemini API Error: No module named 'google.generativeai'
+2025-06-17 19:18:11,445 - __main__ - INFO - Saved explanations for qualitative_business_impact_plain_data to llm_explanations_qualitative_business_impact_plain_data.json
+2025-06-17 19:18:45,090 - __main__ - INFO - Starting LLM explainer
+2025-06-17 19:18:45,439 - __main__ - INFO - Processing prompt: quantitative_analysis_plain_data
+2025-06-17 19:18:53,309 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:19:00,121 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:19:00,139 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'configure'
+2025-06-17 19:19:00,139 - __main__ - INFO - Saved explanations for quantitative_analysis_plain_data to llm_explanations_quantitative_analysis_plain_data.json
+2025-06-17 19:19:00,140 - __main__ - INFO - Processing prompt: quantitative_analysis_context_rich
+2025-06-17 19:19:06,886 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:24:12,315 - __main__ - INFO - Starting LLM explainer
+2025-06-17 19:24:12,656 - __main__ - INFO - Processing prompt: quantitative_analysis_plain_data
+2025-06-17 19:24:23,600 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:24:31,759 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:24:31,823 - __main__ - ERROR - Gemini API Error: module 'google.genai' has no attribute 'GenerationConfig'
+2025-06-17 19:24:31,824 - __main__ - INFO - Saved explanations for quantitative_analysis_plain_data to llm_explanations_quantitative_analysis_plain_data.json
+2025-06-17 19:24:31,824 - __main__ - INFO - Processing prompt: quantitative_analysis_context_rich
+2025-06-17 19:24:40,069 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:27:22,136 - __main__ - INFO - Starting LLM explainer
+2025-06-17 19:27:22,480 - __main__ - INFO - Processing prompt: quantitative_analysis_plain_data
+2025-06-17 19:27:34,819 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:27:40,727 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:27:40,777 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:27:47,540 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:27:47,543 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:27:47,546 - __main__ - INFO - Saved explanations for quantitative_analysis_plain_data to llm_explanations_quantitative_analysis_plain_data.json
+2025-06-17 19:27:47,546 - __main__ - INFO - Processing prompt: quantitative_analysis_context_rich
+2025-06-17 19:27:57,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:28:05,137 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:28:05,182 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:28:15,641 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:28:15,643 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:28:15,644 - __main__ - INFO - Saved explanations for quantitative_analysis_context_rich to llm_explanations_quantitative_analysis_context_rich.json
+2025-06-17 19:28:15,645 - __main__ - INFO - Processing prompt: qualitative_business_impact_plain_data
+2025-06-17 19:28:24,837 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:28:36,614 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:28:36,677 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:28:50,777 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:28:50,779 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:28:50,780 - __main__ - INFO - Saved explanations for qualitative_business_impact_plain_data to llm_explanations_qualitative_business_impact_plain_data.json
+2025-06-17 19:28:50,781 - __main__ - INFO - Processing prompt: qualitative_business_impact_context_rich
+2025-06-17 19:29:04,645 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:29:17,273 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:29:17,331 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:29:40,572 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:29:40,589 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:29:40,590 - __main__ - INFO - Saved explanations for qualitative_business_impact_context_rich to llm_explanations_qualitative_business_impact_context_rich.json
+2025-06-17 19:29:40,590 - __main__ - INFO - Processing prompt: qualitative_causal_relationships_plain_data
+2025-06-17 19:29:53,558 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:30:04,538 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:30:04,596 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:30:26,407 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:30:26,410 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:30:26,411 - __main__ - INFO - Saved explanations for qualitative_causal_relationships_plain_data to llm_explanations_qualitative_causal_relationships_plain_data.json
+2025-06-17 19:30:26,411 - __main__ - INFO - Processing prompt: qualitative_causal_relationships_context_rich
+2025-06-17 19:30:35,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:30:46,365 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:30:46,410 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:31:04,859 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:31:04,862 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:31:04,862 - __main__ - INFO - Saved explanations for qualitative_causal_relationships_context_rich to llm_explanations_qualitative_causal_relationships_context_rich.json
+2025-06-17 19:31:04,863 - __main__ - INFO - Processing prompt: qualitative_recommendations_plain_data
+2025-06-17 19:31:14,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:31:26,308 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:31:26,362 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:31:46,885 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:31:46,887 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:31:46,888 - __main__ - INFO - Saved explanations for qualitative_recommendations_plain_data to llm_explanations_qualitative_recommendations_plain_data.json
+2025-06-17 19:31:46,889 - __main__ - INFO - Processing prompt: qualitative_recommendations_context_rich
+2025-06-17 19:31:57,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-17 19:32:07,801 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-06-17 19:32:07,848 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-06-17 19:32:32,738 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent "HTTP/1.1 200 OK"
+2025-06-17 19:32:32,746 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-06-17 19:32:32,747 - __main__ - INFO - Saved explanations for qualitative_recommendations_context_rich to llm_explanations_qualitative_recommendations_context_rich.json
+2025-06-17 19:47:04,380 - __main__ - INFO - Starting LLM explainer

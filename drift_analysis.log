@@ -1,0 +1,75 @@
+2025-06-09 19:44:51,205 - __main__ - INFO - Found 6 files to process
+2025-06-09 19:44:51,205 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:44:51,208 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:44:51,223 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:44:51,223 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise15_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:44:51,224 - __main__ - INFO - Processing synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:44:51,226 - __main__ - INFO - Loaded synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:44:51,241 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:44:51,241 - __main__ - ERROR - Error processing synthetic_csv/sudden_time_noise0_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:44:51,241 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:44:51,243 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:44:51,257 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:44:51,257 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise20_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:44:51,257 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:44:51,259 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:44:51,273 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:44:51,274 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise5_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:44:51,274 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:44:51,276 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:44:51,290 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:44:51,290 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise10_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:44:51,290 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:44:51,292 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:44:51,307 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:44:51,307 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise0_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:45:13,445 - __main__ - INFO - Found 6 files to process
+2025-06-09 19:45:13,445 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:45:13,448 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:45:13,463 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:45:13,463 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise15_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:45:13,463 - __main__ - INFO - Processing synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:45:13,465 - __main__ - INFO - Loaded synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:45:13,480 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:45:13,480 - __main__ - ERROR - Error processing synthetic_csv/sudden_time_noise0_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:45:13,481 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:45:13,482 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:45:13,496 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:45:13,496 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise20_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:45:13,496 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:45:13,498 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:45:13,513 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:45:13,513 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise5_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:45:13,514 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:45:13,515 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:45:13,530 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:45:13,530 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise10_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:45:13,530 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:45:13,532 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:45:13,547 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:45:13,548 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise0_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:46:10,860 - __main__ - INFO - Found 6 files to process
+2025-06-09 19:46:10,860 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:46:10,862 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:46:10,877 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise15_100_cb.csv
+2025-06-09 19:46:10,878 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise15_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:46:10,878 - __main__ - INFO - Processing synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:46:10,880 - __main__ - INFO - Loaded synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:46:10,895 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_time_noise0_100_cb.csv
+2025-06-09 19:46:10,895 - __main__ - ERROR - Error processing synthetic_csv/sudden_time_noise0_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:46:10,895 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:46:10,897 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:46:10,911 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise20_100_cb.csv
+2025-06-09 19:46:10,911 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise20_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:46:10,911 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:46:10,913 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:46:10,928 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise5_100_cb.csv
+2025-06-09 19:46:10,928 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise5_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:46:10,928 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:46:10,930 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:46:10,945 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise10_100_cb.csv
+2025-06-09 19:46:10,945 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise10_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'
+2025-06-09 19:46:10,946 - __main__ - INFO - Processing synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:46:10,948 - __main__ - INFO - Loaded synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:46:10,963 - __main__ - INFO - OCEL object created for synthetic_csv/sudden_trace_noise0_100_cb.csv
+2025-06-09 19:46:10,963 - __main__ - ERROR - Error processing synthetic_csv/sudden_trace_noise0_100_cb.csv: module 'ocpa.algo.feature_extraction.factory' has no attribute 'EVENT_DURATION'

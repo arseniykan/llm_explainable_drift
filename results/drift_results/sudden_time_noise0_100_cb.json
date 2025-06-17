@@ -1,0 +1,8 @@
+{
+  "time_index": [],
+  "time_series": {
+    "(<function avg at 0x7f6d2547e550>, ('event_service', ('startTime', 'completeTime')))": [],
+    "(<built-in function sum>, ('exec_identity', ()))": []
+  },
+  "explainable_drifts": []
+}
